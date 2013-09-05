@@ -14,8 +14,11 @@
 <!--       <p id="box"></p> -->
 
       <h1>museyroom</h1>
+
       </div>
     </div>
+     <p><small>arrow keys change direction
+      </small><p>
   </div>
 
 </header>
@@ -36,11 +39,6 @@
         xold = 0,
         yold = 0;
 
-    // var up    = document.getElementById('up');
-    // var down  = document.getElementById('down');
-    // var left  = document.getElementById('left');
-    // var right = document.getElementById('right');
-
     var stars = Game.start('stars', Stars);
 
     if ( touch.isPressed ) {
@@ -59,12 +57,9 @@
       xold = touch.x;
       yold = touch.y;
 
-    }    // Game.addEvent(up,    'click', function() { stars.changeDirection('up');    });
-    // Game.addEvent(down,  'click', function() { stars.changeDirection('down');  });
-    // Game.addEvent(left,  'click', function() { stars.changeDirection('left');  });
-    // Game.addEvent(right, 'click', function() { stars.changeDirection('right'); });
+    } 
   });
   </script>
-
+    
 </body> 
 </html>
