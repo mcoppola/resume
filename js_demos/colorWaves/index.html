@@ -19,7 +19,7 @@
         var context = canvas.getContext('2d');
         var colors = new ColorWave(context, canvas.width, canvas.height);
 
-        window.addEventListener('keypress', function (e) {
+        window.addEventListener('keydown', function (e) {
           //up
           if (e.keyCode == 38) {
               colors.frequency += 0.1;
